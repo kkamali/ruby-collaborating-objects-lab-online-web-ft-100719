@@ -33,5 +33,6 @@ class Artist
       end
     end
     new_artist = Artist.new(name)
+    new_artist
   end 
 end 
