@@ -24,5 +24,13 @@ class Artist
       end 
     end
     song_array
+  end
+  
+  def self.find_or_create_by_name(name)
+    self.all.each do |artist|
+      if artist == self 
+        return artist
+      end
+    end
   end 
 end 
