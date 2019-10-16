@@ -12,5 +12,6 @@ class MP3Importer
   
   def import 
     files = self.files 
+    puts files 
   end 
 end 
