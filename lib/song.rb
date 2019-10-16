@@ -16,4 +16,8 @@ class Song
     song_parts = filename.split(" - ")
     new_song = Song.new(song_parts[0])
   end
+  
+  def artist_name 
+    
+  end 
 end 
