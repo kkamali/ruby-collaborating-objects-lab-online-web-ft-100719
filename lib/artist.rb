@@ -23,5 +23,6 @@ class Artist
         song_array << song 
       end 
     end
+    song_array
   end 
 end 
