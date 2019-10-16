@@ -7,6 +7,6 @@ class MP3Importer
   
   def files
     files = Dir.entries(self.path)
-    files.delete_if{|file| !file.end_with?("3")
+    files.delete_if{|file| !file.end_with?("3")}
   end 
 end 
