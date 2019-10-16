@@ -9,4 +9,8 @@ class MP3Importer
     files = Dir.entries(self.path)
     files.delete_if{|file| !file.end_with?("3")}
   end 
+  
+  def import 
+    files = self.files 
+  end 
 end 
