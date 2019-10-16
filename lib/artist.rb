@@ -32,5 +32,6 @@ class Artist
         return artist
       end
     end
+    new_artist = Artist.new(name)
   end 
 end 
