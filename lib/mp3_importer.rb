@@ -12,6 +12,8 @@ class MP3Importer
   
   def import 
     files = self.files 
-    puts files 
+    files.each do |file|
+      song_parts = file.split(" - ")
+    end
   end 
 end 
