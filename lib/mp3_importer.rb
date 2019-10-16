@@ -7,5 +7,6 @@ class MP3Importer
   
   def files
     files = Dir[path]
+    puts files 
   end 
 end 
